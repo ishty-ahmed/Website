@@ -1,0 +1,123 @@
+form{
+ border-style: outset;
+ border-width: 6.5px;
+ border-color:gold;
+ border-radius: 12px;
+ padding: 5px;
+
+
+ 
+ background: linear-gradient(to bottom,rgb(231, 60, 253), white);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ 
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: larger  ;
+ max-height: fit-content;
+ max-width: fit-content;
+ margin-left: 60px;
+}
+
+.form_body{
+ background-image: url(https://i.pinimg.com/originals/1c/f6/66/1cf666146c4f1d3657e0459effd71185.jpg);
+ background-repeat: no-repeat;  
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+}
+
+
+#PF{
+ font-family: 'Courier New', Courier, monospace;
+ color: wheat;
+ margin-left: 75px;
+}
+
+
+
+.navbar ul{
+
+ list-style-type: none;
+ background-color: hsl(0, 88%, 52%);
+ padding: 0px;
+ margin: 0px;
+ overflow: hidden;
+ border-radius: 11px;
+ }
+
+ .navbar a{
+ color: white;
+ text-decoration: none;
+ padding: 15px;
+ display: block;
+ text-align: center;
+ }
+
+ .navbar a:hover{
+ background-color: hsl(17, 82%, 53%);
+ }
+
+ .navbar li{
+ float: left;
+
+}
+
+
+.navbar2 ul{
+
+    list-style-type: none;
+    background-color: hsl(0, 88%, 52%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 11px;
+   }
+   
+   .navbar2 a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+   }
+   
+   .navbar2 a:hover{
+    background-color: hsl(17, 82%, 53%);
+   }
+   
+   .navbar2 li{
+   float: left;
+}
+   
+.learning{
+
+  float: right;  
+  margin-right: 210px;
+  margin-top: 25px;
+
+ overflow: hidden;
+ display: flex;
+}
+
+.download{
+background-color: aqua;
+border: 1;
+border-radius: 27px;
+margin: 5px;
+display: flex;
+max-width: 98px;
+justify-content: center;
+padding-right: 5px;
+text-decoration: none;
+}
+
+.download label{
+ color: rgb(0, 150, 12);
+
+}
+
+
+body{
+
+  margin-top: 15px;
+}

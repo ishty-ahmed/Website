@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css files/style.css">
+</head>
+<body width="50px" class="form_body">
+    <nav class="navbar2">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="page3.html">Timepass</a></li>
+          <li><a href="page2.html">Satisfying</a></li>
+          <li><a href="Table.html">Table</a></li>
+          <li><a href="About.html">About</a></li>
+      
+        </ul>
+      
+      
+      
+      
+    </nav>  
+  
+    
+
+    <h1 id="PF">Personal Form</h1>
+
+
+    
+    <form action="action_page.php" method="post">
+     <div>
+         <label for="fname">First Name:</label>
+         <input type="text" name="fname" id="fname" placeholder="First Name" required>
+    
+     
+     </div>
+
+     <br>
+
+     <div>
+
+
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="mname" id="mname" placeholder="Middle Name">
+     </div>
+        <br>
+
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+
+     </div>
+     <br>
+
+     <div>
+         <label for="pass">Password:</label>
+         <input type="password" name="pass" id="pass" placeholder="Password" required minlength="4" maxlength="15">
+         
+     </div>
+     <br>
+     <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+     
+     </div>
+
+     <br>
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="(+880)1234567890" required>
+
+     </div>
+
+     <br>
+     <div>
+         <label for="bdate">Birth Date:</label>
+         <input type="date" name="bdate" id="bdate" required maxlength="2025">
+
+     </div>
+
+     <br>
+     <div>
+    
+         <label>Mr.</label>
+         <input type="radio" name="title" required>
+         <label>Ms.</label>
+         <input type="radio" name="title" required>
+         <label>Mrs.</label>
+         <input type="radio" name="title" required>
+
+     </div>
+     <br>
+     <div>
+         <label for="Division">Division</label>
+         <select name="Division" id="Division">
+         <option value="Dhaka">Dhaka</option>
+         <option value="Chattogram">Chattogram</option>
+         <option value="Rajshahi">Rajshahi</option>
+         <option value="Khulna">Khulna</option>
+         <option value="Barishal">Barishal</option>
+         <option value="Rangpur">Rangpur</option>
+         <option value="Shylhet">Shylhet</option>
+         <option value="Mymensingh">Mymensingh</option>
+         </select>
+        </div>
+     <br>
+    
+     <div>
+         <label for="html">Do You Know About HTML?</label>
+         <input type="checkbox" id="html" name="html">
+
+
+
+
+     </div>
+
+     <br>
+     <div align="center" class="sub">
+        <input type="submit" id="submit">
+     </div>
+
+    </form>
+
+</body>
+</html>
